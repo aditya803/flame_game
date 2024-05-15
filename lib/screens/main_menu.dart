@@ -20,7 +20,7 @@ class MainMenu extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Padding(padding: EdgeInsets.symmetric(vertical: 50),
-              child: Text("Gift Grab",style: TextStyle(fontSize: 30),),),
+              child: Text("Gift Grab",style: TextStyle(fontSize: 50,color: Colors.indigo,fontWeight: FontWeight.bold),),),
               SizedBox(width: 400,height: 100,
                   child:ElevatedButton(onPressed: (){
                     Navigator.of(context).pushReplacement(
@@ -28,7 +28,7 @@ class MainMenu extends StatelessWidget {
                     );
                   }, child: const Text('Play',
                   style: TextStyle(
-                    fontSize: 30
+                      fontSize: 50,color: Colors.indigo,fontWeight: FontWeight.bold
                   ),)),)
             ],
           ),
