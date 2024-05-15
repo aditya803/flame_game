@@ -31,7 +31,6 @@ class GiftComponent extends SpriteComponent with HasGameRef<GiftGrabGame>, Colli
       gameRef.score += 1;
       gameRef.add(GiftComponent());
     }
-
   }
 
   Vector2 _getRandomPosition(){
