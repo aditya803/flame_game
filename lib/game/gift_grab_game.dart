@@ -22,6 +22,7 @@ class GiftGrabGame extends FlameGame with HasCollisionDetection{
     add(joystickComponent);
     FlameAudio.audioCache.loadAll([
       Globals.itemGrabSound,
+      Globals.freezeSound
     ]);
     add(IceComponent(startPosition: Vector2(200,200)));
     add(IceComponent(startPosition: Vector2(size.x - 200,size.y - 200)));
